@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<schema xmlns = "http://www.w3.org/2001/XMLSchema"
+
+      =""       ="" xmlns:deitel = "http://www.deitel.com/booklist"
+
+             ="" targetNamespace = "http://www.deitel.com/booklist">
+
+         <element name = "books" type = "deitel:BooksType"/>
+
+         <complexType name = "BooksType">
+
+           <sequence>
+
+                    minOccurs = "1" maxOccurs = "unbounded"/>            
+
+    </sequence>          
+
+  </complexType>
+
+         <complexType name = "SingleBookType">
+
+          <sequence>
+
+                 <element name = "title" type = "string"/>                
+
+    </sequence>     
+
+  </complexType>
+
+</schema>

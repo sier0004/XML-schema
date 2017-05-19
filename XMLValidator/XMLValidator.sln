@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLValidator", "XMLValidator\XMLValidator.csproj", "{4F340231-D20F-4681-A3E7-21175CD206B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLValidator", "XMLValidator\XMLValidator.csproj", "{343599B0-DB6E-40EE-8BAB-7673FC9BC7DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML Schema", "XML Schema", "{EBBD4F16-9339-43F3-A8D0-1BD14BE35F95}"
+	ProjectSection(SolutionItems) = preProject
+		books.xml = books.xml
+		books.xsd = books.xsd
+		books2.xml = books2.xml
+		note.xml = note.xml
+		note.xsd = note.xsd
+		note2.xml = note2.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +21,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F340231-D20F-4681-A3E7-21175CD206B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F340231-D20F-4681-A3E7-21175CD206B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F340231-D20F-4681-A3E7-21175CD206B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F340231-D20F-4681-A3E7-21175CD206B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343599B0-DB6E-40EE-8BAB-7673FC9BC7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343599B0-DB6E-40EE-8BAB-7673FC9BC7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343599B0-DB6E-40EE-8BAB-7673FC9BC7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343599B0-DB6E-40EE-8BAB-7673FC9BC7DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
